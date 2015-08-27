@@ -6,3 +6,5 @@ def mean(vals):
 print mean([2,4,4,532])
 
 
+
+
