@@ -7,7 +7,12 @@ print mean([2,4,4,532])
 
 
 def std(vals):
-	if len(vals) == 0:
+	n = len(vals)
+	if n  == 0:
 		return 0.0
-	return vals[-1]/2.0
+	mu = sum(vals)/n
+	var = 0.0
+	for val in vals:
+		var = var + (val-mu)**2
+	return (var/n)**0.5
 
