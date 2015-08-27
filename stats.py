@@ -7,5 +7,7 @@ print mean([2,4,4,532])
 
 
 def std(vals):
-	return 1.0
+	if len(vals) == 0:
+		return 0.0
+	return vals[-1]/2.0
 
