@@ -6,5 +6,6 @@ def mean(vals):
 print mean([2,4,4,532])
 
 
-
+def std(vals):
+	return 1.0
 
