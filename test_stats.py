@@ -8,12 +8,12 @@ def test_mean():
 #test_mean() 
 
 def test_float_mean():
-        assert(mean([2,3]) == 2.5)
+        assert_equal(mean([2,3]), 2.5)
 
 #test_float_mean()
 
 def test_negs():
-	assert(mean([-2,-4]) == -3)
+	assert_equal(mean([-2,-4]), -3)
 #test_negs()
 
 def test_float():
