@@ -1,5 +1,5 @@
 from stats import mean
-from nose.tools import assert_equal
+from nose.tools import assert_equal, assert_almost_equal
 
 
 
